@@ -160,7 +160,7 @@ async def clear_tasks(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Start the bot
 # -----------------------------
 def main():
-    app = ApplicationBuilder().token("8585854031:AAGytcSRlo_BP_mRigVMvLGLu20jwvbLNhU").build()
+    app = ApplicationBuilder().token("Your Token Here").build()
 
     app.add_handler(CommandHandler("add", add_task))
     app.add_handler(CommandHandler("done", done))
